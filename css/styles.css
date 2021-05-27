@@ -1,0 +1,188 @@
+/* General Style */
+p {
+  line-height: 1.8rem;
+}
+.container-fluid {
+  max-width: 1770px;
+}
+
+/* Colors */
+.text-primary-color,
+.link-primary-color {
+  color: #999;
+}
+
+.text-secondary-color {
+  color: #009999;
+}
+
+.text-tertiary-color {
+  color: #cc6699;
+}
+
+/* ul links */
+.link-decoration {
+  padding-left: 0;
+}
+
+.link-decoration li {
+  list-style: none;
+}
+
+.link-decoration a {
+  text-decoration: none;
+}
+
+.link-decoration a:hover {
+  color: #009999;
+}
+
+/* Navbar */
+/* Posioning burger menu fixed in the right */
+.navbar-collapse {
+}
+.nav-container {
+}
+/* Styling Burger Icon */
+.nav-container button {
+}
+
+.navbar-light .navbar-toggler {
+}
+
+.navbar-light .navbar-brand {
+}
+
+.navbar-toggler:focus {
+}
+
+/* Styling the burger menu */
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+}
+
+.nav-link-1.active,
+.nav-link-1:hover {
+}
+
+.nav-link-2.active,
+.nav-link-2:hover {
+}
+
+.nav-link-3.active,
+.nav-link-3:hover {
+}
+
+.nav-link-4.active,
+.nav-link-4:hover {
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-brand:hover {
+}
+
+/* Banner and Search Input */
+.banner-height {
+}
+
+.search-input {
+}
+
+.search-btn {
+}
+
+.form-control::placeholder {
+}
+
+/* Main Content - Photos page */
+
+/* First Row heading */
+.heading-color {
+}
+
+/* Top pagination */
+.input-paging {
+}
+
+/* Bottom Pagination */
+.pagination-btn {
+}
+
+.pagination-btn:hover {
+}
+
+.page-link {
+}
+
+.page-link:hover,
+.page-link.active {
+}
+
+nav.pagination {
+}
+
+/* Main content - Contact Page */
+select {
+}
+
+.form-control {
+}
+
+/* Map */
+.no-padding {
+}
+
+.map-height {
+}
+
+/* Cards */
+
+.social-links-start {
+}
+
+.social-links-start li a {
+}
+
+.social-links-start li a:hover {
+}
+
+/* Footer */
+.footer-bg {
+}
+
+.social-links-bg li a {
+}
+
+.footer-col3-flex {
+}
+
+.footer-col3-flex a {
+}
+
+.social-links-flex-row {
+}
+
+.footer-copyright {
+}
+
+@media only screen and (min-width: 700px) {
+  /* Navbar */
+  .navbar-collapse {
+  }
+
+  /* Search Input */
+  .search-btn {
+  }
+
+  /* Pagination */
+  nav.pagination {
+  }
+  /* Footer */
+  .container-small {
+  }
+  .social-links-flex-row {
+  }
+
+  .footer-col3-flex li {
+  }
+}
