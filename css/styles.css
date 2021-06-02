@@ -186,6 +186,90 @@ nav.pagination {
   align-items: center;
 }
 
+/* Images hover effect - Photos page */
+/* .img-container {
+  position: relative;
+} */
+
+/* .overlay-out {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  transition: all 0.3s;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 4px solid rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0);
+  text-transform: uppercase;
+  font-size: 3em;
+  transition: all 0.3s;
+}
+
+.overlay:hover {
+  transform: scale(0.8, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 4px solid rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+} */
+
+.figure-img {
+  margin-bottom: 0;
+}
+
+.img-container {
+  margin-bottom: 0.5rem;
+}
+/* Overlay img figure */
+.hover-effect {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0);
+  border: 4px solid rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.hover-effect h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.hover-effect:hover {
+  transform: scale(0.8, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 4px solid rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  transition: all 0.3s;
+}
+
+.img-container:hover::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Ends overlay img figure */
+/* End of main content - Photos page */
+
 /* Main content - Contact Page */
 select {
   color: #009999 !important;
@@ -227,6 +311,7 @@ select {
   color: #fff;
   background-color: #009999;
 }
+/* End of main content - contact page */
 
 /* Footer */
 .footer-bg {
