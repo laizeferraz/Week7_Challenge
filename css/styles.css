@@ -257,7 +257,6 @@ nav.pagination {
 }
 
 .img-container:hover::before {
-  display: block;
   position: absolute;
   content: "";
   top: 0;
